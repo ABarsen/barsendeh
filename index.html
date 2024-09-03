@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   
+    <header>
+    <img src="image.jpg" alt="pfp">
+      <h1>
+        <p>Hello there</p>
+        <br />I`m Barsende
+        
+        <p>A web developer proficient in <br />javscript, python and php</p>
+      </h1>
+    </header>
+    <nav>
+      <ul>
+        <!-- Add icon library -->
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <div id="icons">
+          <!-- Add font awesome icons -->
+
+          <a href="#" class="fa fa-twitter"></a>
+
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-github"></a>
+        </div>
+      </ul>
+    </nav>
+    <main>
+      <section id="aboutme">
+        <h1>About me</h1>
+        <p>
+          Hello! I’m a dedicated web developer with a strong proficiency in
+          JavaScript, Python, and PHP. <br />
+          With a passion for crafting efficient and dynamic web applications, I
+          leverage my skills in these languages to deliver high-quality
+          solutions. <br />Whether it’s building interactive front-end features
+          or developing robust back-end systems, I am committed to delivering
+          exceptional results and continuously improving my craft. <br />
+          Let’s create something amazing together!
+        </p>
+      </section>
+      <section id="Projects">
+        <h2>Projects</h2>
+        <p>Error 404! Page not yet developed</p>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="message-box">
+        <h2>Leave a Message</h2>
+        <form action="/submit_message" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="barsende@email.com"
+          />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <br />
+
+          <br />
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <p>&copy;2024 Barsende</p>
+    </footer>
+  </body>
+</html>

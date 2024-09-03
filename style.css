@@ -1,0 +1,133 @@
+*{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
+    
+}
+.header{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 20px;   
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 20px;  
+    font-style: italic;
+    flex-direction: column; 
+}
+img {
+    width: 200px;
+    border-radius: 10%;
+  }
+
+main {
+    flex: 1;
+}
+#footer {
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0%;
+    padding: 10px;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+    /* Optional: Add this if you want the footer to always stick to the bottom */
+    margin-top: auto;
+}
+#aboutme{
+    background-color: black;
+    color: yellow;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 20px;   
+}
+#Projects{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 20px;   
+    font-style: italic ;
+}
+footer {
+    background-color: #f8f8f8;
+   
+    padding: 20px;
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Message Box Styling */
+.message-box {
+    max-width: 50%;
+    max-height: 200%;
+    min-height: 200px;
+    margin: 0 auto 30px;
+    padding: 0px;
+   
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.message-box h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.message-box form {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.message-box label {
+    margin-bottom: auto;
+    font-weight: bold;
+    color: yellow;
+}
+
+.message-box input,
+.message-box textarea {
+    
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+    box-sizing: border-box;
+}
+
+.message-box button {
+    padding: 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color:grey;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.message-box button:hover {
+    background-color: #0056b3;
+}
+.icons{
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+    gap: 20px;
+}
